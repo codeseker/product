@@ -1,0 +1,302 @@
+body{
+  margin: 0;
+  background-color: #fff;
+}
+
+.top-bar {
+  width: 100vw;
+  height: 100px;
+  background-color: #033f47;
+}
+
+#logo {
+  position: absolute;
+  width: 266.81px;
+  height: 63px;
+  left: 42px;
+  top: 17px;
+}
+
+#search-area {
+  position: absolute;
+  width: 699px;
+  height: 45px;
+  left: 421px;
+  top: 26px;
+  border-radius: 26px;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  font-size: 18px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#search{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1100px;
+  top: 37px;
+}
+
+#login{
+  position: absolute;
+  width: 98.57px;
+  height: 45px;
+  left: 1248px;
+  top: 28px;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#login:hover{
+  border: 3px solid #fff;
+  background-color: #033f47;
+  color: #fff;
+  font-weight: 500;
+}
+
+#cart{
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 1384px;
+  top: 31px;
+}
+
+#profile{
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 1443px;
+  top: 31px;
+}
+
+.bottom-bar {
+  width: 100vw;
+  height: 41px;
+  background-color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.bottom-bar span{
+  padding-right: 43px;
+}
+
+.all{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 48px;
+}
+
+.bottom-arrow{
+  position: relative;
+  top: 6px;
+  left: -4px;
+}
+
+.banner{
+  width: 100vw;
+}
+
+.recom-section{
+  margin: 42px 0 0 64px;
+  height: 25px;
+}
+
+.right-arrow{
+  padding-right: 7px;
+  height: 24px;
+  width: 24px;
+}
+
+.recommendation{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  position: relative;
+  top: -59px;
+  left: 30px;
+}
+
+.books-section{
+  width: 87vw;
+  height: 576px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F8D04E;
+  border-radius: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 33px;
+  row-gap: 33px;
+  padding-top: 56px;
+  padding-left: 59px;
+  align-content: flex-start;
+}
+
+.cards{
+  width: 19vw;
+  height: 240px;
+  background-color: #fff;
+  box-shadow: 4px 4px 28px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.sub-card{
+  height: 200px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  gap: 16px;
+}
+
+.wishlist{
+  position: relative;
+  left: 260px;
+  top: 8px;
+}
+
+.wishlist:hover{
+  fill: #FF1593;
+}
+
+.book-content{
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  height: 156px;
+  gap: 7px;
+}
+
+.book-content div p{
+  margin: 0;
+}
+
+.book-img{
+  padding-left: 20px;
+}
+
+.book-name > p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.book-info > p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.location{
+  height: 17px;
+  position: relative;
+  top: 2px;
+  left: -1px;
+}
+
+.book-price{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.points{
+  position: relative;
+  top: 6px;
+  left: -2px;
+}
+
+.exchange-button > button{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #fff;
+  border: 2px solid #00A2AC;
+  border-radius: 5px;
+  padding: 2px 8px 7px 10px;
+  cursor: pointer;
+}
+
+.exchange-button > button:hover{
+  background: #04afb8;
+  color: #fff;
+  font-weight: 500;
+  border: 2px solid #04afb8;
+}
+
+.exchange{
+  position: relative;
+  top: 3px;
+  padding-right: 4px;
+}
+
+.main-footer{
+  width: 100vw;
+  height: 190px;
+  margin-top: 180px;
+  padding-top: 10px;
+  background-color: #C0D6D8;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.heading{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.content{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.copyright{
+  background-color: #627A7C;
+  width: 100vw;
+  height: 33px;
+}
+
+.follow img{
+  padding-right: 8px;
+}
+
+.copyright > p{
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding-top: 6px;
+}
